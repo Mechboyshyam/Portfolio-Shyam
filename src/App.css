@@ -1,0 +1,47 @@
+.profile{
+    height: 300px;
+    width: 300px;
+    border-radius: 25rem;
+}
+
+.text{
+    font-weight: bold;
+    font-size: 50px; 
+    margin-left: 0px;
+}
+
+.btn-1{
+    background-color: tomato;
+
+}
+
+.btn-2{
+    background-color: #8533ff;
+    margin-left: 5px;
+}
+
+.btn-3{
+    background-color: yellow;
+    margin-left: 5px;
+}
+
+.btn-4{
+    background-color: #66b3ff;
+    margin-left: 5px;
+}
+
+.container-2{
+    border: none;
+}
+
+.heading{
+    text-align: center;
+}
+
+.list-cont{
+    text-decoration: none;
+}
+
+li{
+    font-size: 25px;
+}
