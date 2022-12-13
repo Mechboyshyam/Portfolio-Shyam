@@ -36,12 +36,36 @@
 
 .heading{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .list-cont{
     text-decoration: none;
+    margin-left: 8rem;
 }
 
 li{
     font-size: 25px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-link{
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+}
+
+.project-arrow{
+    height: 18px;
+}
+
+.btn-p{
+    background-color: #66b3ff;
+    border-radius: 0.4rem;
+    font-weight: 500;
+
 }

@@ -1,5 +1,7 @@
 import Profile from "./images/profile.jpg"
 import './App.css'
+
+import Arow from './images/Arrow.png';
 function App() {
   return (
     <>
@@ -10,12 +12,12 @@ function App() {
           </div>
 
           <div class="col-md-8 mt-5">
-            <p class="mt-4 ms-5 text">
+            <p class="mt-4 ms-2 text">
               Name : Shyam Diwakar Korade.
             </p>
 
             <div classname="btn-container">
-              <button className="btn btn-1 ms-5">
+              <button className="btn btn-1 ms-2">
                 HTML
               </button>
               <button className="btn btn-2" >
@@ -31,42 +33,83 @@ function App() {
           </div>
         </div>
 
-        <div className="container-2 row mt-5">
-          <hr></hr>
-          <div className="cont-2-skill col-md-6">
+          <div className="container-2 row mt-5">
+            <hr></hr>
+
             <h2 className="bg-info heading">Skills</h2>
-            <ul className="list-cont ">
-              <li>Full Stack Web Developement</li>
-              <li>Communication Skill</li>
+            <div className="cont-2-skill mt-4 col-6">
+              <ul className="list-cont">
+                <li>Full Stack Web Developement</li>
+                <li>Communication Skill</li>
+              </ul>
+            </div>
+            <div className="col-6 mt-4">
+              <ul className="list-cont">
               <li>Presentation Skill</li>
               <li>Listening Skill</li>
-            </ul>
-          </div>
+              </ul>
+            </div>
+            <hr></hr>
+      </div>
 
-          <div className="col-md-6">
-                <h2 className="bg-info heading">Experience</h2>
-                <ul>
-                  <li>Tata Motors (6 month's as a technician)</li>
-                </ul>
-          </div>
+        <h2 className="bg-info heading">Experience</h2>
+        <div className="mt-4">
+            <ul className="list-cont">
+              <li>Tata Motors (6 month's as a technician)</li>
+            </ul>
         </div>
-          <hr></hr>
-        <div>
-          <h2 className="bg-info">Hobbies</h2>
-          <ul>
+        <hr></hr>
+
+        <h2 className="bg-info heading">Hobbies</h2>
+        <div className="d-flex mt-4 row">
+          <div className="col-6">
+            <ul className="list-cont">
             <li>Designing Websites</li>
             <li>Explore new Skills</li>
-            <li>Visiting Places</li>
-            <li>Playing(Volleyball , Running)</li>
-          </ul>
+            </ul>
+          </div>
+          <div className="col-6">
+             <ul className="list-cont">
+               <li>Visiting Places</li>
+               <li>Playing(Volleyball , Running)</li>
+             </ul>
+          </div>
         </div>
+        <hr></hr>
 
-        <div className="projects">
-          <button className="btn"><a href="https://calculator-mechboyshyam.netlify.app/">Claculator project</a></button>
-          <button className="btn"><a href="https://mechboyshyam-task-2-paytm.netlify.app/">Paytm first page</a></button>
-          <button className="btn"><a href="https://icp-group-d.netlify.app/index.html">Group project</a></button>
-          <button className="btn"><a href="https://emoji-kit.netlify.app/">Emoji kit fun project</a></button>
+
+        <h2 className="bg-info heading">Projects</h2>
+        <div className="projects mt-4">
+          <div class="project-btn d-grid gap-2 ">
+            <button className="btn btn-p ">Claculator
+              <a className="project-link" href="https://calculator-mechboyshyam.netlify.app/" rel="noreferrer" target="_blank">
+                <img className="project-arrow" src={Arow} alt="png" />
+              </a>
+            </button>
+          </div>
+          <div class="project-btn">
+            <button className="btn btn-p ">Paytm First Page
+              <a className="project-link" href="https://mechboyshyam-task-2-paytm.netlify.app/" rel="noreferrer" target="_blank">
+                <img className="project-arrow" src={Arow} alt="png" />
+              </a>
+            </button>
+          </div>
+          <div class="project-btn">
+            <button className="btn btn-p">Organic-Fruits (Group project)
+              <a className="project-link" href="https://icp-group-d.netlify.app/index.html" rel="noreferrer" target="_blank">
+                <img className="project-arrow" src={Arow} alt="png" />
+              </a>
+            </button>
+          </div>
+          <div class="project-btn">
+            <button className="btn btn-p">Emoji-kit
+              <a className="project-link" href="https://emoji-kit.netlify.app/" rel="noreferrer" target="_blank">
+                <img className="project-arrow" src={Arow} alt="png" />
+              </a>
+            </button>
+          </div>
         </div>
+<hr></hr>
       </div>
     </>
   );
