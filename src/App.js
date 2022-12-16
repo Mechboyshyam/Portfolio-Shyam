@@ -36,7 +36,7 @@ function App() {
           <div className="container-2 row mt-5">
             <hr></hr>
 
-            <h2 className="bg-info heading">Skills</h2>
+            <h2 className=" heading">Skills</h2>
             <div className="cont-2-skill mt-4 col-6">
               <ul className="list-cont">
                 <li>Full Stack Web Developement</li>
@@ -52,7 +52,7 @@ function App() {
             <hr></hr>
       </div>
 
-        <h2 className="bg-info heading">Experience</h2>
+        <h2 className=" heading">Experience</h2>
         <div className="mt-4">
             <ul className="list-cont">
               <li>Tata Motors (6 month's as a technician)</li>
@@ -60,7 +60,7 @@ function App() {
         </div>
         <hr></hr>
 
-        <h2 className="bg-info heading">Hobbies</h2>
+        <h2 className=" heading">Hobbies</h2>
         <div className="d-flex mt-4 row">
           <div className="col-6">
             <ul className="list-cont">
@@ -78,7 +78,7 @@ function App() {
         <hr></hr>
 
 
-        <h2 className="bg-info heading">Projects</h2>
+        <h2 className=" heading">Projects</h2>
         <div className="projects mt-4">
           <div class="project-btn d-grid gap-2 ">
             <button className="btn btn-p ">Claculator

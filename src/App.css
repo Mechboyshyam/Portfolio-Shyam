@@ -7,6 +7,7 @@
 .text{
     font-weight: bold;
     font-size: 50px; 
+    color: black;
     margin-left: 0px;
 }
 
@@ -37,6 +38,8 @@
 .heading{
     text-align: center;
     margin-top: 2rem;
+    color: black;
+    font-weight: 800;
 }
 
 .list-cont{
@@ -46,6 +49,7 @@
 
 li{
     font-size: 25px;
+    color: green;
 }
 
 .projects{
@@ -64,7 +68,7 @@ li{
 }
 
 .btn-p{
-    background-color: #66b3ff;
+    background-color: white;
     border-radius: 0.4rem;
     font-weight: 500;
 
